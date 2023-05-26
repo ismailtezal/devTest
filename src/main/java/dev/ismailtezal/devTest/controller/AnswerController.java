@@ -23,7 +23,7 @@ public class AnswerController {
 
         answerService.executePythonScript();
 
-        return ResponseEntity.ok("Answer Post Başarılı");
+        return ResponseEntity.ok("Answer Post Başarılı !");
     }
 
     @GetMapping("/result")
