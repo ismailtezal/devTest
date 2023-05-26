@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/answers")
-@CrossOrigin("http://localhost:3000/")
+@CrossOrigin("devtest-6ef68.web.app/")
 public class AnswerController {
 
 
